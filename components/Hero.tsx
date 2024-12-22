@@ -1,6 +1,7 @@
 import { getDictionary } from '@/lib/dictionary'
+import { Locale } from '@/i18n.config'
 
-export default async function Hero({ lang }: { lang: string }) {
+export default async function Hero({ lang }: { lang: Locale }) {
   const dict = await getDictionary(lang)
 
   return (
