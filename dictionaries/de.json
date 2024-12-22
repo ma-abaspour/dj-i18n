@@ -1,0 +1,56 @@
+{
+  "navigation": {
+    "home": "Startseite",
+    "about": "Über uns"
+  },
+  "page": {
+    "home": {
+      "title": "Darius International Enterprises",
+      "description": "Führend in globaler Innovation und digitaler Transformation. Wir schaffen Lösungen, die Unternehmen über Grenzen und Kulturen hinweg verbinden.",
+      "subtitle": "Mit über einem Jahrzehnt Erfahrung haben wir Unternehmen weltweit dabei geholfen, ihre internationalen Ziele durch modernste Technologie und strategische Planung zu erreichen.",
+      "features": [
+        {
+          "title": "Globale Reichweite",
+          "description": "Tätig in über 30 Ländern mit mehrsprachiger Unterstützung und lokaler Expertise."
+        },
+        {
+          "title": "Innovation an erster Stelle",
+          "description": "Nutzung neuester Technologien für revolutionäre Lösungen."
+        },
+        {
+          "title": "Kundenerfolg",
+          "description": "Engagiert für außergewöhnliche Ergebnisse unserer Kunden weltweit."
+        }
+      ]
+    },
+    "about": {
+      "title": "Über Uns",
+      "description": "Dies ist die Über Uns Seite"
+    }
+  },
+  "hero": {
+    "title": "Willkommen auf unserer Plattform",
+    "subtitle": "Entdecken Sie erstaunliche Möglichkeiten",
+    "cta": "Loslegen"
+  },
+  "footer": {
+    "company": "Darius International",
+    "description": "Führend in internationalen Geschäftslösungen",
+    "links": {
+      "title": "Schnellzugriff",
+      "items": [
+        { "text": "Startseite", "href": "/" },
+        { "text": "Über uns", "href": "/about" },
+        { "text": "Dienstleistungen", "href": "/services" },
+        { "text": "Kontakt", "href": "/contact" }
+      ]
+    },
+    "contact": {
+      "title": "Kontakt",
+      "address": "123 Geschäftsstraße, Stadt, Land",
+      "email": "contact@darius.international",
+      "phone": "+1 234 567 890"
+    },
+    "copyright": "© 2023 Darius International. Alle Rechte vorbehalten."
+  }
+}

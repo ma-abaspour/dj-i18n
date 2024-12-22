@@ -1,0 +1,61 @@
+{
+  "navigation": {
+    "home": "Home",
+    "about": "About"
+  },
+  "page": {
+    "home": {
+      "title": "Darius International Enterprises",
+      "description": "Leading the way in global innovation and digital transformation. We create solutions that connect businesses across borders and cultures.",
+      "subtitle": "With over a decade of experience, we've helped companies worldwide achieve their international goals through cutting-edge technology and strategic planning.",
+      "features": [
+        {
+          "title": "Global Reach",
+          "description": "Operating in over 30 countries with multilingual support and local expertise."
+        },
+        {
+          "title": "Innovation First",
+          "description": "Leveraging the latest technologies to deliver revolutionary solutions."
+        },
+        {
+          "title": "Customer Success",
+          "description": "Dedicated to helping our clients achieve exceptional results worldwide."
+        }
+      ]
+    },
+    "about": {
+      "title": "About Us",
+      "description": "This is the about page"
+    }
+  },
+  "hero": {
+    "title": "Welcome to Our Platform",
+    "subtitle": "Discover amazing possibilities",
+    "cta": "Get Started"
+  },
+  "footer": {
+    "about": "About Us",
+    "contact": "Contact",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "rights": "All rights reserved",
+    "company": "Darius International",
+    "description": "Leading the way in international business solutions",
+    "links": {
+      "title": "Quick Links",
+      "items": [
+        { "text": "Home", "href": "/" },
+        { "text": "About", "href": "/about" },
+        { "text": "Services", "href": "/services" },
+        { "text": "Contact", "href": "/contact" }
+      ]
+    },
+    "contact": {
+      "title": "Contact Us",
+      "address": "123 Business Street, City, Country",
+      "email": "contact@darius.international",
+      "phone": "+1 234 567 890"
+    },
+    "copyright": "© 2023 Darius International. All rights reserved."
+  }
+}
