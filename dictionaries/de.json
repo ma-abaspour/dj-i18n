@@ -1,31 +1,78 @@
 {
   "navigation": {
     "home": "Startseite",
-    "about": "Über uns"
+    "about": "Über uns",
+    "contact": "Kontakt",
+    "services": "Dienstleistungen"
   },
   "page": {
     "home": {
-      "title": "Darius International Enterprises",
-      "description": "Führend in globaler Innovation und digitaler Transformation. Wir schaffen Lösungen, die Unternehmen über Grenzen und Kulturen hinweg verbinden.",
-      "subtitle": "Mit über einem Jahrzehnt Erfahrung haben wir Unternehmen weltweit dabei geholfen, ihre internationalen Ziele durch modernste Technologie und strategische Planung zu erreichen.",
-      "features": [
-        {
-          "title": "Globale Reichweite",
-          "description": "Tätig in über 30 Ländern mit mehrsprachiger Unterstützung und lokaler Expertise."
-        },
-        {
-          "title": "Innovation an erster Stelle",
-          "description": "Nutzung neuester Technologien für revolutionäre Lösungen."
-        },
-        {
-          "title": "Kundenerfolg",
-          "description": "Engagiert für außergewöhnliche Ergebnisse unserer Kunden weltweit."
-        }
-      ]
+      "title": "Darius International Handel",
+      "description": "Ein führender Pionier im Mineralienhandel, der als einer der Branchenführer im Iran mit einer hervorragenden Erfolgsbilanz tätig ist.",
+      "subtitle": "Weltweite Bereitstellung hochwertiger Mineralressourcen und Handelsdienstleistungen",
+      "products": {
+        "title": "Produkte & Dienstleistungen",
+        "items": [
+          {
+            "title": "Mineralienversorgung & Export",
+            "items": [
+              "Eisenerz (Magnetit und Hämatit)",
+              "Kupfer (Erz und Konzentrat)",
+              "Blei und Zink",
+              "Chromit",
+              "Silizium in verschiedenen Qualitäten",
+              "Kohle (Koks, Anthrazit, Thermisch)"
+            ]
+          },
+          {
+            "title": "Industriedienstleistungen",
+            "items": [
+              "Rohstoffversorgung für die heimische Industrie",
+              "Technische Beratungsdienste",
+              "Export- und Importdienstleistungen",
+              "Investitionsmöglichkeiten"
+            ]
+          },
+          {
+            "title": "Spezialprodukte",
+            "items": [
+              "Mikronisierte Mineralpulver",
+              "Dekorative Steine",
+              "Industriemineralien",
+              "Baumaterialien"
+            ]
+          }
+        ]
+      },
+      "advantages": {
+        "title": "Unsere Wettbewerbsvorteile",
+        "items": [
+          "Umfangreiches Liefernetzwerk",
+          "Expertenteam",
+          "Qualitätssicherung",
+          "Wettbewerbsfähige Preise",
+          "Schnelle Lieferung",
+          "Einhaltung internationaler Standards"
+        ]
+      }
     },
     "about": {
       "title": "Über Uns",
-      "description": "Dies ist die Über Uns Seite"
+      "description": "Dies ist die Über Uns Seite",
+      "vision": "Vision",
+      "vision_text": "Eines der renommiertesten Mineralhandelsunternehmen weltweit zu werden.",
+      "mission": "Mission",
+      "mission_points": [
+        "Bereitstellung hochwertiger Dienstleistungen mit transparenten Transaktionen",
+        "Erschließung internationaler Märkte für iranische Mineralexporte",
+        "Unterstützung nachhaltiger Entwicklung"
+      ],
+      "competitive_advantages": [
+        "Umfangreiches Mineralversorgungsnetzwerk",
+        "Expertenteam in Handel und Bergbau",
+        "Engagement für Qualität und Geschwindigkeit",
+        "Wettbewerbsfähige Preisgestaltung"
+      ]
     }
   },
   "hero": {
