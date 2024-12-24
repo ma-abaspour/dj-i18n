@@ -112,6 +112,6 @@
     "submit": "Submit",
     "name_placeholder": "Enter your name",
     "message_placeholder": "Tell us what you need",
-    "contact_placeholder": "How can we contact you? (Email/Phone)"
+    "contact_placeholder": "Email/Phone"
   }
 }

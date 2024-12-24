@@ -11,7 +11,8 @@ export default async function Footer({ lang }: { lang: Locale }) {
           <div>
             <h3 className='text-xl font-bold mb-4'>{footer.contact.title}</h3>
             <p className='mb-2'>{footer.contact.address}</p>
-            <p>{footer.contact.email}</p>
+            <p>info@dariushtejarat.com</p>
+            <p>salesmanager@dariushtejarat.com</p>
           </div>
         </div>
       </div>

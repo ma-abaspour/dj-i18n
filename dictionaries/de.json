@@ -108,6 +108,6 @@
     "submit": "Absenden",
     "name_placeholder": "Geben Sie Ihren Namen ein",
     "message_placeholder": "Sagen Sie uns, was Sie brauchen",
-    "contact_placeholder": "Wie können wir Sie kontaktieren? (E-Mail/Telefon)"
+    "contact_placeholder": "E-Mail/Telefon"
   }
 }
