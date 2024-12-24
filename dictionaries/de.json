@@ -99,5 +99,15 @@
       "phone": "+1 234 567 890"
     },
     "copyright": "© 2023 Darius International. Alle Rechte vorbehalten."
+  },
+  "form": {
+    "title": "Kontaktieren Sie uns",
+    "name": "Ihr Name",
+    "message": "Ihre Nachricht",
+    "contact": "Kontaktinformation",
+    "submit": "Absenden",
+    "name_placeholder": "Geben Sie Ihren Namen ein",
+    "message_placeholder": "Sagen Sie uns, was Sie brauchen",
+    "contact_placeholder": "Wie können wir Sie kontaktieren? (E-Mail/Telefon)"
   }
 }

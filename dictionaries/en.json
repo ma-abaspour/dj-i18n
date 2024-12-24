@@ -103,5 +103,15 @@
       "phone": "+1 234 567 890"
     },
     "copyright": "© 2023 Darius International. All rights reserved."
+  },
+  "form": {
+    "title": "Get in Touch",
+    "name": "Your Name",
+    "message": "Your Message",
+    "contact": "Contact Information",
+    "submit": "Submit",
+    "name_placeholder": "Enter your name",
+    "message_placeholder": "Tell us what you need",
+    "contact_placeholder": "How can we contact you? (Email/Phone)"
   }
 }

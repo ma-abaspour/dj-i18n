@@ -7,7 +7,7 @@ export default async function Home({
 }: {
   params: { lang: Locale }
 }) {
-  const { page } = await getDictionary(lang)
+  const { page, form } = await getDictionary(lang)
 
   // Add error handling
   if (!page?.home) {
@@ -61,6 +61,74 @@ export default async function Home({
         </div>
       </section>
 
+      {/* Other Sections */}
+      {/* Add this form section here */}
+      <section className="py-16 bg-gray-50">
+        <div className="container max-w-6xl mx-auto px-4">
+          <h2 className="text-3xl font-bold mb-8">{form.title}</h2>
+          <form
+            action="https://formspree.io/f/xyzzzjnn"
+            method="POST"
+            className="space-y-6 bg-white p-8 rounded-lg shadow-lg"
+          >
+            {/* Name Field */}
+            <div>
+              <label htmlFor="name" className="block text-lg font-medium text-gray-700">
+                {form.name}
+              </label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder={form.name_placeholder}
+                required
+                className="mt-2 block w-full px-4 py-2 border border-gray-300 rounded-lg shadow-sm focus:ring-blue-500 focus:border-blue-500"
+              />
+            </div>
+
+            {/* Message Field */}
+            <div>
+              <label htmlFor="message" className="block text-lg font-medium text-gray-700">
+                {form.message}
+              </label>
+              <textarea
+                id="message"
+                name="message"
+                placeholder={form.message_placeholder}
+                required
+                rows={4}
+                className="mt-2 block w-full px-4 py-2 border border-gray-300 rounded-lg shadow-sm focus:ring-blue-500 focus:border-blue-500"
+              ></textarea>
+            </div>
+
+            {/* Contact Field */}
+            <div>
+              <label htmlFor="contact" className="block text-lg font-medium text-gray-700">
+                {form.contact}
+              </label>
+              <input
+                type="text"
+                id="contact"
+                name="contact"
+                placeholder={form.contact_placeholder}
+                required
+                className="mt-2 block w-full px-4 py-2 border border-gray-300 rounded-lg shadow-sm focus:ring-blue-500 focus:border-blue-500"
+              />
+            </div>
+
+            {/* Submit Button */}
+            <div>
+              <button
+                type="submit"
+                className="w-full px-6 py-3 bg-blue-600 text-white font-semibold rounded-lg shadow hover:bg-blue-700 focus:ring-4 focus:ring-blue-500"
+              >
+                {form.submit}
+              </button>
+            </div>
+          </form>
+        </div>
+      </section>
+      {/* Footer */}
       <Footer lang={lang} />
     </main>
   )
