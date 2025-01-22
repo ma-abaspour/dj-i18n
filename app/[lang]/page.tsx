@@ -18,13 +18,15 @@ export default async function Home({
 
   return (
     <main className="min-h-screen bg-white">
+
+
       {/* Hero Section */}
-      <section className='py-20 bg-gray-50'>
+      <section className='py-20 bg-white'>
         <div className='container max-w-6xl mx-auto px-4'>
-          <h1 className={`text-5xl font-bold mb-6 text-gray-900 ${lang === 'arabic' ? 'leading-relaxed' : ''}`}>
+          <h1 className={`text-5xl font-bold mb-6 text-gray-900`}>
             {page.home.title}
           </h1>
-          <p className={`text-xl text-gray-600 mb-8 max-w-2xl ${lang === 'arabic' ? 'leading-relaxed' : ''}`}>
+          <p className={`text-xl text-gray-600 mb-8 max-w-2xl`}>
             {page.home.description}
           </p>
         </div>
@@ -33,9 +35,8 @@ export default async function Home({
 
     <section className='py-16 bg-white'>
       <div className='container max-w-6xl mx-auto px-4'>
-        <h2 className='text-3xl font-bold text-center mb-12'>Explore Our Categories</h2>
         <div className='grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8'>
-          {/* Electronics */}
+
           <div className='flex flex-col items-center text-center'>
             <div className='w-16 h-16 bg-blue-500 text-white rounded-full flex items-center justify-center mb-4'>
               <Icon icon="icon-park-outline:heavy-metal" className='w-8 h-8' />
@@ -44,7 +45,6 @@ export default async function Home({
             <p className='text-gray-600'>Find the latest gadgets and devices.</p>
           </div>
 
-          {/* Fashion */}
           <div className='flex flex-col items-center text-center'>
             <div className='w-16 h-16 bg-green-500 text-white rounded-full flex items-center justify-center mb-4'>
               <Icon icon="cbi:soil-moisture" className='w-8 h-8' />
@@ -53,7 +53,6 @@ export default async function Home({
             <p className='text-gray-600'>Stylish clothing and accessories.</p>
           </div>
 
-          {/* Home & Living */}
           <div className='flex flex-col items-center text-center'>
             <div className='w-16 h-16 bg-red-500 text-white rounded-full flex items-center justify-center mb-4'>
               <Icon icon="icon-park-outline:floor-tile" className='w-8 h-8' />
@@ -62,7 +61,6 @@ export default async function Home({
             <p className='text-gray-600'>Furniture, decor, and more.</p>
           </div>
 
-          {/* Sports */}
           <div className='flex flex-col items-center text-center'>
             <div className='w-16 h-16 bg-yellow-500 text-white rounded-full flex items-center justify-center mb-4'>
               <Icon icon="emojione-v1:building-construction" className='w-16 h-16' />
@@ -71,7 +69,6 @@ export default async function Home({
             <p className='text-gray-600'>Gear and equipment for all sports.</p>
           </div>
 
-          {/* Beauty */}
           <div className='flex flex-col items-center text-center'>
             <div className='w-16 h-16 bg-purple-500 text-white rounded-full flex items-center justify-center mb-4'>
               <Icon icon="mdi:lipstick" className='w-8 h-8' />
@@ -80,7 +77,6 @@ export default async function Home({
             <p className='text-gray-600'>Cosmetics and personal care.</p>
           </div>
 
-          {/* Books */}
           <div className='flex flex-col items-center text-center'>
             <div className='w-16 h-16 bg-indigo-500 text-white rounded-full flex items-center justify-center mb-4'>
               <Icon icon="mdi:book-open-variant" className='w-8 h-8' />
@@ -89,7 +85,6 @@ export default async function Home({
             <p className='text-gray-600'>Discover your next great read.</p>
           </div>
 
-          {/* Toys */}
           <div className='flex flex-col items-center text-center'>
             <div className='w-16 h-16 bg-teal-500 text-white rounded-full flex items-center justify-center mb-4'>
               <Icon icon="mdi:puzzle" className='w-8 h-8' />
@@ -98,7 +93,6 @@ export default async function Home({
             <p className='text-gray-600'>Fun for kids of all ages.</p>
           </div>
 
-          {/* Groceries */}
           <div className='flex flex-col items-center text-center'>
             <div className='w-16 h-16 bg-orange-500 text-white rounded-full flex items-center justify-center mb-4'>
               <Icon icon="mdi:cart" className='w-8 h-8' />
