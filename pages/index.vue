@@ -1,10 +1,6 @@
-
 <template>
 
-
-
 <Navigation />
-
 
 <!-- Hero Section -->
 <div class="max-w-5xl mx-auto mt-20 py-12 text-black ">
@@ -36,7 +32,7 @@
           <icon name="icon-park-outline:heavy-metal" class="w-8 h-8" />
         </div>
         <h3 class="text-lg font-semibold">Rebar</h3>
-        <p class="text-gray-600">Find the latest gadgets and devices.</p>
+        <p class="text-gray-600">High-quality steel reinforcement bars.</p>
       </NuxtLink>
 
       <NuxtLink to="/comingsoon" class="flex flex-col items-center text-center">
@@ -44,7 +40,7 @@
           <icon name="cbi:soil-moisture" class="w-8 h-8" />
         </div>
         <h3 class="text-lg font-semibold">Iron Ore</h3>
-        <p class="text-gray-600">Stylish clothing and accessories.</p>
+        <p class="text-gray-600">Premium grade iron ore for industrial use.</p>
       </NuxtLink>
 
       <NuxtLink to="/comingsoon" class="flex flex-col items-center text-center">
@@ -52,56 +48,52 @@
           <icon name="icon-park-outline:floor-tile" class="w-8 h-8" />
         </div>
         <h3 class="text-lg font-semibold">Ceramic Tile</h3>
-        <p class="text-gray-600">Furniture, decor, and more.</p>
+        <p class="text-gray-600">Durable and stylish ceramic tiles.</p>
       </NuxtLink>
 
-      <!-- Sports -->
       <NuxtLink to="/comingsoon" class="flex flex-col items-center text-center">
         <div class="w-16 h-16 bg-yellow-500 text-white rounded-full flex items-center justify-center mb-4">
           <icon name="emojione-v1:building-construction" class="w-16 h-16" />
         </div>
         <h3 class="text-lg font-semibold">Construction Material</h3>
-        <p class="text-gray-600">Gear and equipment for all sports.</p>
+        <p class="text-gray-600">Essential materials for construction projects.</p>
       </NuxtLink>
 
-      <!-- Beauty -->
       <NuxtLink to="/comingsoon" class="flex flex-col items-center text-center">
         <div class="w-16 h-16 bg-purple-500 text-white rounded-full flex items-center justify-center mb-4">
-          <icon name="mdi:lipstick" class="w-8 h-8" />
+          <icon name="mdi:truck" class="w-8 h-8" />
         </div>
-        <h3 class="text-lg font-semibold">Beauty</h3>
-        <p class="text-gray-600">Cosmetics and personal care.</p>
+        <h3 class="text-lg font-semibold">Logistics</h3>
+        <p class="text-gray-600">Efficient and reliable logistics services.</p>
       </NuxtLink>
 
-      <!-- Books -->
       <NuxtLink to="/comingsoon" class="flex flex-col items-center text-center">
         <div class="w-16 h-16 bg-indigo-500 text-white rounded-full flex items-center justify-center mb-4">
-          <icon name="mdi:book-open-variant" class="w-8 h-8" />
+          <icon name="mdi:factory" class="w-8 h-8" />
         </div>
-        <h3 class="text-lg font-semibold">Books</h3>
-        <p class="text-gray-600">Discover your next great read.</p>
-      </NuxtLink >
-
-      <!-- Toys -->
-      <NuxtLink to="/comingsoon" class="flex flex-col items-center text-center">
-        <div class="w-16 h-16 bg-teal-500 text-white rounded-full flex items-center justify-center mb-4">
-          <icon name="mdi:puzzle" class="w-8 h-8" />
-        </div>
-        <h3 class="text-lg font-semibold">Toys</h3>
-        <p class="text-gray-600">Fun for kids of all ages.</p>
+        <h3 class="text-lg font-semibold">Manufacturing</h3>
+        <p class="text-gray-600">High-quality manufacturing solutions.</p>
       </NuxtLink>
 
-      <!-- Groceries -->
+      <NuxtLink to="/comingsoon" class="flex flex-col items-center text-center">
+        <div class="w-16 h-16 bg-teal-500 text-white rounded-full flex items-center justify-center mb-4">
+          <icon name="mdi:warehouse" class="w-8 h-8" />
+        </div>
+        <h3 class="text-lg font-semibold">Warehousing</h3>
+        <p class="text-gray-600">Secure and spacious warehousing options.</p>
+      </NuxtLink>
+
       <NuxtLink to="/comingsoon" class="flex flex-col items-center text-center">
         <div class="w-16 h-16 bg-orange-500 text-white rounded-full flex items-center justify-center mb-4">
-          <icon name="mdi:cart" class="w-8 h-8" />
+          <icon name="mdi:shipping-pallet" class="w-8 h-8" />
         </div>
-        <h3 class="text-lg font-semibold">Groceries</h3>
-        <p class="text-gray-600">Fresh food and daily essentials.</p>
+        <h3 class="text-lg font-semibold">Shipping</h3>
+        <p class="text-gray-600">Fast and reliable shipping services.</p>
       </NuxtLink>
 
     </div>
   </div>
+</section>
 
 
   <section class="bg-white py-20">
@@ -136,8 +128,6 @@
       </div>
     </div>
   </div>
-</section>
-
 </section>
 
 <Footer />
